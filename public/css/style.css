@@ -1,10 +1,92 @@
+
+/* Main */
+main {
+    /* width: 10000px; */
+    overflow-y: hidden;
+}
+/* Main */
+ 
+/* Navigation Menu */
+.nav-overlay {
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    z-index: 98;
+    top: 0;
+    left: 0;
+    background-color: #00000090;
+    overflow-x: hidden;
+    transition: all .3s;
+}
+
+#nav-trigger {
+    font-size: 20px;
+    cursor: pointer;
+    top: 20px;
+    left: 20px;
+    z-index: 97;
+    color: tomato;
+    position: fixed;
+}
+
+#nav-trigger:hover {
+    color: violet;
+}
+/* Navigation Menu */
+
+/* Home page */
 .hero {
     height: 100vh;
     width: 100%;
     background-color: aquamarine;
     display: flex;
+    flex-direction: row;
     align-items: center;
     align-content: center;
     text-align: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
+
+.title-text {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+
+}
+
+.title-text h1 {
+    font-family: aktiv-grotesk-extended, sans-serif;
+    font-weight: 900;
+    font-style: normal; 
+    font-size: 3vmax;
+}
+
+.title-text h2 {
+    font-family: aktiv-grotesk-condensed, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5vmax;
+    padding: 10px;
+}
+
+#text1 {
+    letter-spacing: 2.5px;
+    margin: 10px;
+    font-family: aktiv-grotesk-extended, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.begin-scroll {
+    font-family: 'Caudex', serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2vmax;
+    display: block;
+    position: absolute;
+    top: 80vh;
+
+}
+/* Home page */
