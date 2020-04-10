@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Psychedelics - 450 Final</title>
     
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="public/css/reset.css">
+    <link rel="stylesheet" href="public/css/style.css">
 
         <!-- Fonts -->
         <!-- Aktiv Grotesk -->
@@ -15,7 +15,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     
     <!-- Scripts -->
-    <script src="./js/nav.js"></script>
+    <script src="public/js/nav.js"></script>
 
     <!-- <script src="./js/color.js"></script> -->
 
@@ -27,9 +27,10 @@
     <div id="open-nav" class="nav-overlay">
         <span id="nav-close" onclick="closeNav()">X</span>
         <div class="inner-menu">
-            <a href="#">History</a>
-            <a href="#">Psychedelic-Assisted Therapy</a>
-            <a href="#" id="top-secret">TOP-SECRET</a>
+            <a href="#home" onclick="closeNav()">Home</a>
+            <a href="#section-1" onclick="closeNav()">History</a>
+            <a href="#section-2" onclick="closeNav()">Psychedelic-Assisted Therapy</a>
+            <a href="#" id="top-secret" onclick="closeNav()">TOP-SECRET</a>
             <a href="#sources-section" id="sources-text">Sources</a>
         </div>
            
@@ -37,6 +38,9 @@
             <p id="nav-message">TrippedUp is an informative website about the beginnings of LSD, psilocybin and other psychedelic substances, their theraputical purposes, recreational use and as a potential weapon.</p>
 
             <h3>Informative links:</h3>
+
+
+            <span id="go-back-nav">Go back up &#8593;</span>
 
         </div>
         
@@ -52,7 +56,7 @@
             
 
             <!-- Title -->
-            <section class="hero">
+            <section id="home" class="hero">
                 <div id="title-text">
                     <h1>Tripped Up</h1>
                 </div>
@@ -71,10 +75,17 @@
         <!-- Title -->
 
         <!-- History - Section 1 -->
-        <section class="history-1">
-            
+        <section id="section-1" class="history-1">
+            section 1
         </section>
         <!-- History - Section 1 -->
+
+        <!-- History - Section 2 -->
+        <section id="section-2" class="history-2">
+            section 2
+
+        </section>
+        <!-- History - Section 2 -->
 
         </div>
         <!-- Inner -->
