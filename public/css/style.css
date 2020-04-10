@@ -50,7 +50,7 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    align-content: center;
+    /* align-content: center; */
     align-items: flex-end;
 }
 
@@ -115,7 +115,7 @@ body {
     position: absolute;
     z-index: 99;
     top: 30px;
-    left: 90vw;
+    right: 30px;
     cursor: pointer;
     text-decoration: none;
     font: 20px;
