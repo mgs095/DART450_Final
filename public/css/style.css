@@ -166,11 +166,13 @@ body {
 }
 
 #title-text {
-    left: 30px;
-    top: 10%;
+    padding-left: 30px;
     display: block;
     position: absolute;
     text-align: left;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    width: 100vw;
 
 }
 
@@ -226,6 +228,7 @@ body {
     top: 90vh;
     text-align: center;
     width: 100vw;
+    border-top: 1px solid black;
 }
 /* Home page */
 
