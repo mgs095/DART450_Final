@@ -1,2 +1,3 @@
 # DART450_Final
-Added menu/navigation
+Integrate Tailwind.css (NPM)
+Horizontal to vertical scroll media queries
