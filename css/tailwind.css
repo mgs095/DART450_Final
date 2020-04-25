@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
+
+.btn {
+    @apply italic inline-block;
+}
+
+
 @tailwind utilities;
