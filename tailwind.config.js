@@ -2,8 +2,8 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-    'ext' : ['Aktiv Grotesk Extended'],
-    'title-cond' : ['Aktiv Grotesk'],
+    'title' : ['Aktiv Grotesk Extended'],
+    'regular' : ['Aktiv Grotesk'],
     'body' : ['Caudex'],
     'mono' : ['IBM Plex Mono']
     }
