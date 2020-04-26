@@ -686,6 +686,10 @@ font-display:auto;font-style:italic;font-weight:900;
 .tk-aktiv-grotesk { font-family: "aktiv-grotesk",sans-serif; }
 .tk-aktiv-grotesk-extended { font-family: "aktiv-grotesk-extended",sans-serif; }  */
 
+body {
+  background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+}
+
 .img-1 {
   left: 7rem;
 }
@@ -693,6 +697,18 @@ font-display:auto;font-style:italic;font-weight:900;
 .icon-1 {
   left: 35%;
   top: 170%;
+}
+
+.nav-overlay {
+  z-index: 99;
+}
+
+#nav-trigger {
+  z-index: 98;
+}
+
+#nav-close {
+  z-index: 100;
 }
 
 .container {
