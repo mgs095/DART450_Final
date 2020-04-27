@@ -1,11 +1,12 @@
 module.exports = {
   theme: {
-    extend: {},
     fontFamily: {
-    'title' : ['Aktiv Grotesk Extended'],
-    'regular' : ['Aktiv Grotesk'],
-    'body' : ['Caudex'],
-    'mono' : ['IBM Plex Mono']
+      'title' : ['Poppins'],
+      'regular' : ['IBM Plex Sans'],
+      'body' : ['Caudex'],
+      'mono' : ['IBM Plex Mono']
+      },
+    extend: {
     }
   },
   variants: {},
