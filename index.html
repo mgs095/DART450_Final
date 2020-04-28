@@ -43,24 +43,37 @@
     <!-- Hero -->
     
     <!-- History -->
-    <div class="history">
-    <!-- History Title -->
-        <div class="history-title">
-            <h1>History</h1>
-        </div>
+    <!-- Section 1 -->
+    <div class="history-1">
+    <div class="history-title">
+        <h1>History</h1>
+    </div>
     <h1 class="title-rotate">1938</h1>
-    <img class="rellax img-1" data-rellax-speed="3" src="public/img/hofmann_1_1200.jpg" alt="Young Albert Hofmann">
         <div class="history-body">
             <p>The story of LSD begins with Albert Hofmann, a Swiss-born chemist. In 1938, Hofmann was working at Sandoz Laboratories, studying the medical plant Drama maritime as well as ergot fungus, as part of a program to synthesize and purify the active constituents to be used as pharmaceuticals. When experimenting on creating respiratory and circulatory stimulants, Hofmann synthesized lysergic acid diethylamide (LSD).
             </p>
         </div>
+        <img class="rellax img-1" data-rellax-speed="3" data-rellax-mobile-speed="0" src="public/img/hofmann_1_1200.jpg" alt="Young Albert Hofmann">
+        <div class="history-body-2">
+            <p>5 years after his initial discovery, Hofmann accidentally ingested LSD through his fingertips and felt a sudden change of consciousness:
+            </p>
+        </div>
     </div>
+    
+
+    <div class="history-2">
+        
+    </div>
+
     <!-- History -->
 
     <!--Scripts  -->
     <script>
-          var rellax = new Rellax('.rellax');
-    </script>
+        // This is the default setting
+        var rellax = new Rellax('.rellax', {
+          breakpoints: [640, 768, 1280]
+        });
+      </script>
     <!-- Scripts -->
 </body>
 </html>
