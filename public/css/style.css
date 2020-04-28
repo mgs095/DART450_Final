@@ -270,7 +270,7 @@ color: #f6712e;
     position: absolute;
     padding: 2rem;
     width: 45vw;
-    top: 210%;
+    top: 212%;
     right: 25%;
     font-family: aktiv-grotesk-extended, sans-serif;
     font-weight: 400;
@@ -295,7 +295,7 @@ mark {
     position: absolute;
     padding: 2rem;
     width: 50vw;
-    top: 250%;
+    top: 260%;
     right: 0;
     font-family: aktiv-grotesk, sans-serif;
     font-weight: 300;
@@ -335,7 +335,7 @@ mark {
     position: absolute;
     padding: 2rem;
     width: 25vw;
-    top: 270%;
+    top: 287%;
     right: 15%;
     font-family: aktiv-grotesk-extended, sans-serif;
     font-weight: 400;
@@ -447,6 +447,7 @@ mark {
     margin-bottom: 20px;
     position: absolute;
     padding: 2rem;
+    top: 289%;
     width: 100vw;
     right: 0;
     font-size: 20px;
@@ -465,14 +466,14 @@ mark {
 .img-2 {
     z-index:0;
     left: 0;
-    top: 330%;
+    top: 360%;
 }
 
 .threshold {
     width: 100vw;
     right: 0;
     left: 0;
-    top: 280%;
+    top: 330%;
     z-index: 1; 
 }
 /* History */
