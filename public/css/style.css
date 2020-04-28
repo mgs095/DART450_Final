@@ -119,7 +119,7 @@ body {
 }
 
 .nav-sources h3 {
-    border: 1px solid black;
+    border: 1.25px solid black;
     font-size: 1.6vmax;
     font-family: 'Caudex', serif;
     font-weight: 400;
@@ -158,7 +158,6 @@ color: #f6712e;
      width: 100vw;
      padding: 2rem;
      text-align: center;
-     border: 1px solid black;
  }
  .hero h1 {
     font-family: aktiv-grotesk-extended, sans-serif;
@@ -167,8 +166,8 @@ color: #f6712e;
     font-size: 90px;
     width: 100vw;
     padding: 2rem;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    border-top: 1.25px solid black;
+    border-bottom: 1.25px solid black;
     margin-bottom: 2rem;
  }
 
@@ -191,14 +190,15 @@ color: #f6712e;
     font-family: aktiv-grotesk-extended, sans-serif;
     font-weight: 400;
     font-style: normal;
-    border-bottom: 1px solid black;
+    color: white;
+    border-bottom: 1.25px solid white;
     z-index: 1;
 }
 /* History - Title */
 
 /* History */
 .history-1 {
-    height: 200vh;
+    height: 300vh;
     width: 100vw;
     background-color: blue;
 }
@@ -211,25 +211,32 @@ color: #f6712e;
     font-weight: 400;
     font-style: normal;
     font-size: 56px;
-    border: 1px solid;
+    width: 25%;
+    text-align: center;
+    color: white;
+    border: 1.25px solid white;
     border-radius: 100%;
     padding: .25rem;
     z-index: 1;
+    
 }
 
 .history-body {
-    border: 1px solid black;
+    color: white;
+    border: 1.25px solid white;
     position: absolute;
     padding: 2rem;
     width: 50vw;
     top: 150%;
     right: 0;
-    font-family: 'Caudex', serif;
-    font-weight: 400;
+    font-family: aktiv-grotesk, sans-serif;
+    font-weight: 300;
     font-style: normal;
     font-size: 20px;
     text-align: justify;
     z-index: 1;
+
+    background-color: blue;
 }
 
 .img-1 {
@@ -240,22 +247,110 @@ color: #f6712e;
     top: 150%;
 }
 .history-body-2 {
-    border: 1px solid black;
+    color: white;
+    border: 1.25px solid white;
     position: absolute;
     padding: 2rem;
     width: 30vw;
     top: 190%;
     right: 25%;
     left: 25%;
-    font-family: 'Caudex', serif;
-    font-weight: 400;
+    font-family: aktiv-grotesk, sans-serif;
+    font-weight: 300;
     font-style: normal;
     font-size: 20px;
     text-align: justify;
     z-index: 1;
+    background-color: blue;
+}
+
+.history-quote {
+    border: 1.25px solid white;
+    border-radius: 100%;
+    position: absolute;
+    padding: 2rem;
+    width: 45vw;
+    top: 210%;
+    right: 25%;
+    font-family: aktiv-grotesk-extended, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 24px;
+    text-align: justify;
+    text-transform: lowercase;
+    z-index: 1; 
+    line-height: 1.85rem;
+    letter-spacing: -.05rem;
+}
+
+
+mark {
+    background-color: #87F487;
+    color: blue;
+}
+
+.history-body-3 {
+    color: white;
+    border: 1.25px solid white;
+    position: absolute;
+    padding: 2rem;
+    width: 50vw;
+    top: 250%;
+    right: 0;
+    font-family: aktiv-grotesk, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    text-align: justify;
+    z-index: 1;
+    background-color: blue;
+}
+
+.footnote {
+    font-family: aktiv-grotesk-condensed, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 26px;
+    line-height: 0;
+}
+
+.footnote:hover {
+    color: #f6712e;
+    transition: .3s ease;
+}
+
+.img-2 {
+    z-index:0;
+    position:absolute;
+    height:50%;
+    left:5%;
+    top: 290%;
+}
+
+.threshold {
+    background-color: #f6712e;
+    border: 1.25px solid #f6712e;
+    color: blue;
+    border-radius: 100%;
+    position: absolute;
+    padding: 2rem;
+    width: 25vw;
+    top: 270%;
+    right: 15%;
+    font-family: aktiv-grotesk-extended, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 24px;
+    text-align: center;
+    text-transform: lowercase;
+    z-index: 1; 
+    line-height: 1.85rem;
+    letter-spacing: -.05rem;
+    cursor: pointer;
 }
 /* History */
 
+/* ===================================== MOBILE ADJUSTMENTS ========================================= */
 @media(max-width:640px){
     /* Hero */
     .hero {
@@ -266,17 +361,12 @@ color: #f6712e;
     padding: 2rem;
     text-align: center;
     }
-    .hero h1 {font-family: aktiv-grotesk-extended, sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    .hero h1 {
     font-size: 60px;
     width: 100vw;
     margin-bottom: 2rem;
     }
     .hero h3 {
-    font-family: aktiv-grotesk, sans-serif;
-    font-weight: 400;
-    font-style: normal;
     font-size: 24px;
     width: 75%;
     }
@@ -286,9 +376,8 @@ color: #f6712e;
 
 /* History */
 .history-1 {
-    height: 200vh;
+    height: 300vh;
     width: 100vw;
-    background-color: blue;
     display: flex;
     flex-direction: column;
     z-index: 1;
@@ -305,43 +394,86 @@ color: #f6712e;
 }
 /* History - Title */
 .title-rotate {
+    margin-top: 20px;
+    margin-bottom: 20px;
     transform: rotate(0deg);
     position: initial;
     text-align: center;
-    font-family: aktiv-grotesk-condensed, sans-serif;
-    font-weight: 400;
-    font-style: normal;
     font-size: 56px;
-    border: 1px solid black;
-    border-radius: 50%;
-    margin-top: .25rem;
-    margin-bottom: .25rem;
+    border-radius: 100%;
+    border: 2px solid white;
     z-index: 1;
+    width: 100%;
 }
 
 .history-body {
-    border: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
     position: initial;
-    padding: 2rem;
     width: 100vw;
-    left: 50%;
     z-index: 1;
 }
 .img-1 {
     z-index:0;
     left: 0;
-    top: 165%;
+    top: 180%;
 }
 
 .history-body-2 {
-    border: 1px solid black;
+    margin-bottom: 20px;
     position: initial;
     padding: 2rem;
     width: 100vw;
-    left: 50%;
-    top: 150%;
     z-index: 1;
     margin-top: 50%;
+}
+.history-quote {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 100%;
+    position: initial;
+    width: 100%;
+    z-index: 1; 
+    line-height: 1.5rem;
+}
+
+mark {
+    background-color: white;
+    color: blue;
+}
+
+.history-body-3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: absolute;
+    padding: 2rem;
+    width: 100vw;
+    right: 0;
+    font-size: 20px;
+    text-align: justify;
+    z-index: 1;
+}
+
+.footnote {
+    font-family: aktiv-grotesk-condensed, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 26px;
+    line-height: 0;
+    color: #f6712e;
+}
+.img-2 {
+    z-index:0;
+    left: 0;
+    top: 330%;
+}
+
+.threshold {
+    width: 100vw;
+    right: 0;
+    left: 0;
+    top: 280%;
+    z-index: 1; 
 }
 /* History */
 }
