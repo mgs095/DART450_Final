@@ -460,6 +460,12 @@ color: #f6712e;
         border-bottom: 1.25px solid white;
         z-index: 1;
     }
+
+    .psych-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        border: 1.25px solid white;
+    }
 /* Psychedelic-Assisted Therapy */
 
 /* ===================================== MOBILE ADJUSTMENTS ========================================= */
