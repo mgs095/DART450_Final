@@ -443,7 +443,7 @@ color: #f6712e;
 
 /* Psychedelic-Assisted Therapy */
 .psych-therapy {
-        height: 100vh;
+        height: 200vh;
         width: 100vw;
         background-color: #1BFC1B;
     }
@@ -452,7 +452,7 @@ color: #f6712e;
         position: absolute;
         width: 100vw;
         padding: 2rem;
-        font-size: 98px;
+        font-size: 80px;
         font-family: aktiv-grotesk-extended, sans-serif;
         font-weight: 400;
         font-style: normal;
@@ -461,11 +461,58 @@ color: #f6712e;
         z-index: 1;
     }
 
-    .psych-grid {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
+    .title-rotate-5 {
+        transform: rotate(-90deg);
+        position: absolute;
+        top: 510%;
+        font-family: aktiv-grotesk-condensed, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 56px;
+        width: 25%;
+        text-align: center;
+        color: white;
         border: 1.25px solid white;
+        border-radius: 100%;
+        padding: .25rem;
+        z-index: 1;
+        
     }
+
+    .psych-intro {
+    color: white;
+    border: 1.25px solid white;
+    position: absolute;
+    padding: 2rem;
+    width: 50vw;
+    top: 500%;
+    right: 0;
+    font-family: aktiv-grotesk, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    text-align: justify;
+    z-index: 1;
+    background-color: #1BFC1B;
+    }
+
+    /* .psych-grid {
+        position: absolute;
+        top:550%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        text-align: center;
+        align-self: center;
+        justify-self: center;
+        padding: 2rem;
+    }
+
+    .grid-1, .grid-2, .grid-3, .grid-4 {
+        border: 1.25px solid white;
+        width: 100%;
+        height: 280px; 
+    }*/
+
 /* Psychedelic-Assisted Therapy */
 
 /* ===================================== MOBILE ADJUSTMENTS ========================================= */
@@ -662,8 +709,30 @@ color: #f6712e;
     position: initial;
     width: 100vw;
     padding: 2rem;
-    font-size: 58px;
+    font-size: 40px;
     z-index: 1;
+    background-color: #1BFC1B;
 }
+
+
+    .title-rotate-5 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    transform: rotate(0deg);
+    position: initial;
+    text-align: center;
+    font-size: 48px;
+    border-radius: 100%;
+    border: 2px solid white;
+    z-index: 1;
+    width: 100%;
+    
+    }
+
+    .psych-intro {
+        position: initial;
+        width: 100vw;
+        z-index: 1;
+    }   
 /* Psychedelic-Assisted Therapy */
 }
