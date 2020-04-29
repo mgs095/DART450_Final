@@ -464,7 +464,7 @@ color: #f6712e;
     .title-rotate-5 {
         transform: rotate(-90deg);
         position: absolute;
-        top: 510%;
+        top: 520%;
         font-family: aktiv-grotesk-condensed, sans-serif;
         font-weight: 400;
         font-style: normal;
@@ -485,7 +485,7 @@ color: #f6712e;
     position: absolute;
     padding: 2rem;
     width: 50vw;
-    top: 500%;
+    top: 515%;
     right: 0;
     font-family: aktiv-grotesk, sans-serif;
     font-weight: 300;
