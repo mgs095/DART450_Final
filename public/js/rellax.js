@@ -81,7 +81,7 @@
       speed: -2,
 	    verticalSpeed: null,
 	    horizontalSpeed: null,
-      breakpoints: [576, 768, 1201],
+      breakpoints: [640, 768, 1280],
       center: false,
       wrapper: null,
       relativeToWrapper: false,
@@ -115,7 +115,7 @@
         if (isAscending && isNumerical) return;
       }
       // revert defaults if set incorrectly
-      self.options.breakpoints = [576, 768, 1201];
+      self.options.breakpoints = [640, 768, 1280];
       console.warn("Rellax: You must pass an array of 3 numbers in ascending order to the breakpoints option. Defaults reverted");
     }
 

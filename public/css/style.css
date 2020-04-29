@@ -198,7 +198,7 @@ color: #f6712e;
 
 /* History */
 .history-1 {
-    height: 300vh;
+    height: 375vh;
     width: 100vw;
     background-color: blue;
 }
@@ -235,7 +235,6 @@ color: #f6712e;
     font-size: 20px;
     text-align: justify;
     z-index: 1;
-
     background-color: blue;
 }
 
@@ -264,7 +263,26 @@ color: #f6712e;
     background-color: blue;
 }
 
+.title-rotate-2 {
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 225%;
+    font-family: aktiv-grotesk-condensed, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 56px;
+    width: 25%;
+    text-align: center;
+    color: white;
+    border: 1.25px solid white;
+    border-radius: 100%;
+    padding: .25rem;
+    z-index: 1;
+    
+}
+
 .history-quote {
+    color: white;
     border: 1.25px solid white;
     border-radius: 100%;
     position: absolute;
@@ -283,11 +301,6 @@ color: #f6712e;
     letter-spacing: -.05rem;
 }
 
-
-mark {
-    background-color: #87F487;
-    color: blue;
-}
 
 .history-body-3 {
     color: white;
@@ -348,10 +361,113 @@ mark {
     letter-spacing: -.05rem;
     cursor: pointer;
 }
+
+.history-body-4 {
+    color: white;
+    border: 1.25px solid white;
+    position: absolute;
+    padding: 2rem;
+    width: 40vw;
+    top: 330%;
+    left: 55%;
+    font-family: aktiv-grotesk, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    text-align: justify;
+    z-index: 1;
+    background-color: blue;
+}
+
+.title-rotate-3 {
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 335%;
+    font-family: aktiv-grotesk-condensed, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 56px;
+    width: 25%;
+    text-align: center;
+    color: white;
+    border: 1.25px solid white;
+    border-radius: 100%;
+    padding: .25rem;
+    z-index: 1;
+    
+}
+
+.img-3 {
+    z-index:0;
+    position:absolute;
+    height:50%;
+    left:5%;
+    top: 400%;
+}
+
+.title-rotate-4 {
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 410%;
+    font-family: aktiv-grotesk-condensed, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 56px;
+    width: 25%;
+    text-align: center;
+    color: white;
+    border: 1.25px solid white;
+    border-radius: 100%;
+    padding: .25rem;
+    z-index: 1;
+    
+}
+
+.history-body-5 {
+    color: white;
+    border: 1.25px solid white;
+    position: absolute;
+    padding: 2rem;
+    width: 50vw;
+    top: 410%;
+    right: 0;
+    font-family: aktiv-grotesk, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    text-align: justify;
+    z-index: 1;
+    background-color: blue;
+}
 /* History */
+
+/* Psychedelic-Assisted Therapy */
+.psych-therapy {
+        height: 100vh;
+        width: 100vw;
+        background-color: #1BFC1B;
+    }
+
+    .psych-title h1 {
+        position: absolute;
+        width: 100vw;
+        padding: 2rem;
+        font-size: 98px;
+        font-family: aktiv-grotesk-extended, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: white;
+        border-bottom: 1.25px solid white;
+        z-index: 1;
+    }
+/* Psychedelic-Assisted Therapy */
 
 /* ===================================== MOBILE ADJUSTMENTS ========================================= */
 @media(max-width:640px){
+    /* Remove parallax from mobile */
+    .rellax { transform: translate3d(0,0,0) !important; }
+
+
     /* Hero */
     .hero {
     display: flex;
@@ -376,11 +492,14 @@ mark {
 
 /* History */
 .history-1 {
-    height: 300vh;
+    height: auto;
     width: 100vw;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     z-index: 1;
+    left: 0;
+    right: 0;
 }
 
 /* History - Title */
@@ -394,12 +513,12 @@ mark {
 }
 /* History - Title */
 .title-rotate {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     transform: rotate(0deg);
     position: initial;
     text-align: center;
-    font-size: 56px;
+    font-size: 48px;
     border-radius: 100%;
     border: 2px solid white;
     z-index: 1;
@@ -407,74 +526,138 @@ mark {
 }
 
 .history-body {
-    margin-top: 20px;
-    margin-bottom: 20px;
     position: initial;
     width: 100vw;
     z-index: 1;
 }
 .img-1 {
+    margin-top: 1rem;
     z-index:0;
-    left: 0;
-    top: 180%;
+    position: initial;
+    height: auto;
+    width: 200vw;
+}
+
+.title-rotate-2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    transform: rotate(0deg);
+    position: initial;
+    text-align: center;
+    font-size: 48px;
+    border-radius: 100%;
+    border: 2px solid white;
+    z-index: 1;
+    width: 100%;
+    
 }
 
 .history-body-2 {
-    margin-bottom: 20px;
     position: initial;
-    padding: 2rem;
     width: 100vw;
     z-index: 1;
-    margin-top: 50%;
 }
 .history-quote {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-radius: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     position: initial;
-    width: 100%;
+    width: 100vw;
+    z-index: 1;
     z-index: 1; 
     line-height: 1.5rem;
-}
-
-mark {
-    background-color: white;
-    color: blue;
+    font-size: 20px;
 }
 
 .history-body-3 {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    position: absolute;
-    padding: 2rem;
-    top: 289%;
+    position: initial;
     width: 100vw;
-    right: 0;
-    font-size: 20px;
-    text-align: justify;
     z-index: 1;
 }
 
-.footnote {
-    font-family: aktiv-grotesk-condensed, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 26px;
-    line-height: 0;
-    color: #f6712e;
-}
 .img-2 {
     z-index:0;
-    left: 0;
-    top: 360%;
+    position: initial;
+    height: auto;
+    width: 200vw;
 }
 
 .threshold {
+    position: initial;
     width: 100vw;
     right: 0;
     left: 0;
-    top: 330%;
     z-index: 1; 
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.title-rotate-3 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    transform: rotate(0deg);
+    position: initial;
+    text-align: center;
+    font-size: 48px;
+    border-radius: 100%;
+    border: 2px solid white;
+    z-index: 1;
+    width: 100%;
+    
+}
+
+.history-body-4 {
+    position: initial;
+    width: 100vw;
+    z-index: 1;
+}
+
+.img-3 {
+    z-index:0;
+    position: initial;
+    height: auto;
+    width: 200vw;
+    margin-top: 1rem;
+}
+
+.title-rotate-4 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    transform: rotate(0deg);
+    position: initial;
+    text-align: center;
+    font-size: 48px;
+    border-radius: 100%;
+    border: 2px solid white;
+    z-index: 1;
+    width: 100%;
+    
+}
+
+.history-body-5 {
+    position: initial;
+    width: 100vw;
+    z-index: 1;
 }
 /* History */
+
+/* Psychedelic-Assisted Therapy */
+.psych-therapy {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    z-index: 1;
+    left: 0;
+    right: 0;
+}
+
+.psych-title h1 {
+    position: initial;
+    width: 100vw;
+    padding: 2rem;
+    font-size: 58px;
+    z-index: 1;
+}
+/* Psychedelic-Assisted Therapy */
 }
