@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Happy Trip</title>
-    
-    <link rel="stylesheet" href="public/css/reset.css">
-    <link rel="stylesheet" href="public/css/style.css">
 
-        <!-- Fonts -->
-        <!-- Aktiv Grotesk -->
-        <link rel="stylesheet" href="https://use.typekit.net/mxa8hcj.css">
-        <!-- Caudex -->
-        <link href="https://fonts.googleapis.com/css2?family=Caudex:ital@0;1&family=IBM+Plex+Mono:wght@400;600;700&family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,400;1,600&family=Poppins:ital,wght@0,400;0,600;0,800;1,400;1,600;1,800&display=swap" rel="stylesheet">
-    
+    <link rel="stylesheet" href="public/css/reset.css" />
+    <link rel="stylesheet" href="public/css/style.css" />
+
+    <!-- Fonts -->
+    <!-- Aktiv Grotesk -->
+    <link rel="stylesheet" href="https://use.typekit.net/mxa8hcj.css" />
+    <!-- Caudex -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caudex:ital@0;1&family=IBM+Plex+Mono:wght@400;600;700&family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,400;1,600&family=Poppins:ital,wght@0,400;0,600;0,800;1,400;1,600;1,800&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- Scripts -->
     <script src="public/js/nav.js"></script>
     <script src="public/js/rellax.js"></script>
@@ -21,101 +24,184 @@
     <!-- file:///Users/markusspecogna/Desktop/School/DART450%20-%20Web%20Intervention/Resources/random/random_function.html -->
     <!-- file:///Users/markusspecogna/Desktop/School/DART450%20-%20Web%20Intervention/Resources/random/random_function2_1.html -->
     <!-- file:///Users/markusspecogna/Desktop/School/DART450%20-%20Web%20Intervention/Resources/dart450_day6_mousePos/mousePos3.html -->
-</head>
-<body>
-
+  </head>
+  <body>
+    <!-- Cursor -->
+    <div class="cursor"></div>
+    <!-- Cursor -->
     <!-- Nav/Menu -->
     <div id="open-nav" class="nav-overlay">
-        <span id="nav-close" onclick="closeNav()">X</span>
-        <div id="menu" class="inner-menu">
-            <a href="#home" onclick="closeNav()">Home</a>
-            <a href="#section-1" onclick="closeNav()">History</a>
-            <a href="#section-2" onclick="closeNav()">Psychedelic-Assisted Therapy</a>
-            <!-- <a href="#" id="top-secret" onclick="closeNav()">TOP-SECRET</a> -->
-            <a href="#" id="sources-text">Sources</a>
-        </div>
+      <span id="nav-close" onclick="closeNav()">X</span>
+      <div id="menu" class="inner-menu">
+        <a href="#home" onclick="closeNav()">Home</a>
+        <a href="#section-1" onclick="closeNav()">History</a>
+        <a href="#section-2" onclick="closeNav()"
+          >Psychedelic-Assisted Therapy</a
+        >
+        <!-- <a href="#" id="top-secret" onclick="closeNav()">TOP-SECRET</a> -->
+        <a href="#" id="sources-text">Sources</a>
+      </div>
     </div>
     <span id="nav-trigger" onclick="openNav()">X</span>
     <!-- Nav/Menu -->
 
     <!-- Hero -->
     <div class="hero">
-        <h1>Happy Trip</h1>
-        <h3>A look at the accidental birth, and history of LSD - from its ever expanding discoveries to its use in therapy today.</h3>
+      <h1>Happy Trip</h1>
+      <h3>
+        A look at the accidental birth, and history of LSD - from its ever
+        expanding discoveries to its use in therapy today.
+      </h3>
     </div>
     <!-- Hero -->
-    
+
     <!-- History -->
     <!-- Section 1 -->
-<div class="history-1">
-        <div class="history-title">
-            <h1>History</h1>
-        </div>
-            <h1 class="title-rotate">1938</h1>
-        <div class="history-body">
-            <p>The story of LSD begins with Albert Hofmann, a Swiss-born chemist. In 1938, Hofmann was working at Sandoz Laboratories, studying the medical plant Drama maritime as well as ergot fungus, as part of a program to synthesize and purify the active constituents to be used as pharmaceuticals. When experimenting on creating respiratory and circulatory stimulants, Hofmann synthesized lysergic acid diethylamide (LSD).
-            </p>
-        </div>
-            <img class="rellax img-1" data-rellax-speed="1" data-rellax-mobile-speed="0" src="public/img/hofmann_1_1200.jpg" alt="Young Albert Hofmann">
-        <h1 class="title-rotate-2">1943</h1>
-        <div class="history-body-2">
-            <p>5 years after his initial discovery, Hofmann accidentally ingested LSD through his fingertips and felt a sudden change of consciousness:
-            </p>
-        </div>
-        <div class="history-quote">
-            <p>
-                <span class="quote-marks">“</span>affected by a remarkable restlessness, combined with a slight dizziness. At home I lay down and sank into a not unpleasant intoxicated-like condition, characterized by an extremely stimulated imagination. In a dreamlike state, with eyes closed (I found the daylight to be unpleasantly glaring), I perceived an uninterrupted stream of fantastic pictures, extraordinary shapes with intense, kaleidoscopic play of colours.<span class="quote-marks">”</span>
-            </p>
-        </div>
-        <div class="history-body-3">
-            <p>3 days later, Hofmann self-experimented, dosing himself with .25 milligrams of LSD, assuming that would be a threshold dose<span class="footnote">*</span>. One hour later, Albert Hofmann was experiencing the first LSD trip. After his trip, Hofmann knew he had discovered something of significance, that LSD a psychoactive substance with extraordinary potency, capable of causing significant shifts of consciousness in incredibly low doses.</p>
-        </div>
-        <div class="threshold">
-            <p><span class="footnote">*</span>What is a threshold dose?</p>
-        </div>
-        <img class="rellax img-2" data-rellax-speed="1" src="public/img/hofmann_3_1200.jpg" alt="Young Albert Hofmann">
-        <h1 class="title-rotate-3">1949</h1>
-        <div class="history-body-4">
-            <p>
-                Because of how intense and introspective LSD is, Hofmann believed it was the perfect tool for psychiatric use. LSD was introduced as a commercial medication, Delysid, for various psychiatric uses in 1947, and brought to the United States in 1949.
-            </p>
-        </div>
-        <img class="rellax img-3" data-rellax-speed="1" src="public/img/hofmann_4_1200.jpg" alt="Albert Hofmann Later Years">
-        <h1 class="title-rotate-4">Later years</h1>
-        <div class="history-body-5">
-            <p>
-                After Hofmann's discovery, he spent the rest of his life as an advocate for LSD and its powerful, therapeutical and spiritual benefits for individuals. He felt that LSD was medicine for the soul. On April 29th, 2008, Albert Hofmann passed away at the age of 102.
-            </p>
-        </div>
-</div>
-<!-- History -->
-
-<div class="psych-therapy">
-    <div class="psych-title">
+    <div class="history-1">
+      <div class="history-title">
+        <h1>History</h1>
+      </div>
+      <h1 class="title-rotate">1938</h1>
+      <div class="history-body">
+        <p>
+          The story of LSD begins with Albert Hofmann, a Swiss-born chemist. In
+          1938, Hofmann was working at Sandoz Laboratories, studying the medical
+          plant Drama maritime as well as ergot fungus, as part of a program to
+          synthesize and purify the active constituents to be used as
+          pharmaceuticals. When experimenting on creating respiratory and
+          circulatory stimulants, Hofmann synthesized lysergic acid diethylamide
+          (LSD).
+        </p>
+      </div>
+      <img
+        class="rellax img-1"
+        data-rellax-speed="1"
+        data-rellax-mobile-speed="0"
+        src="public/img/hofmann_1_1200.jpg"
+        alt="Young Albert Hofmann"
+      />
+      <h1 class="title-rotate-2">1943</h1>
+      <div class="history-body-2">
+        <p>
+          5 years after his initial discovery, Hofmann accidentally ingested LSD
+          through his fingertips and felt a sudden change of consciousness:
+        </p>
+      </div>
+      <div class="history-quote">
+        <p>
+          <span class="quote-marks">“</span>affected by a remarkable
+          restlessness, combined with a slight dizziness. At home I lay down and
+          sank into a not unpleasant intoxicated-like condition, characterized
+          by an extremely stimulated imagination. In a dreamlike state, with
+          eyes closed (I found the daylight to be unpleasantly glaring), I
+          perceived an uninterrupted stream of fantastic pictures, extraordinary
+          shapes with intense, kaleidoscopic play of colours.<span
+            class="quote-marks"
+            >”</span
+          >
+        </p>
+      </div>
+      <div class="history-body-3">
+        <p>
+          3 days later, Hofmann self-experimented, dosing himself with .25
+          milligrams of LSD, assuming that would be a threshold dose<span
+            class="footnote"
+            >*</span
+          >. One hour later, Albert Hofmann was experiencing the first LSD trip.
+          After his trip, Hofmann knew he had discovered something of
+          significance, that LSD a psychoactive substance with extraordinary
+          potency, capable of causing significant shifts of consciousness in
+          incredibly low doses.
+        </p>
+      </div>
+      <div id="pop-1" class="threshold">
+        <p><span class="footnote">*</span>What is a threshold dose?</p>
+      </div>
+      <img
+        class="rellax img-2"
+        data-rellax-speed="1"
+        src="public/img/hofmann_3_1200.jpg"
+        alt="Young Albert Hofmann"
+      />
+      <h1 class="title-rotate-3">1949</h1>
+      <div class="history-body-4">
+        <p>
+          Because of how intense and introspective LSD is, Hofmann believed it
+          was the perfect tool for psychiatric use. LSD was introduced as a
+          commercial medication, Delysid, for various psychiatric uses in 1947,
+          and brought to the United States in 1949.
+        </p>
+      </div>
+      <img
+        class="rellax img-3"
+        data-rellax-speed="1"
+        src="public/img/hofmann_4_1200.jpg"
+        alt="Albert Hofmann Later Years"
+      />
+      <h1 class="title-rotate-4">Later years</h1>
+      <div class="history-body-5">
+        <p>
+          After Hofmann's discovery, he spent the rest of his life as an
+          advocate for LSD and its powerful, therapeutical and spiritual
+          benefits for individuals. He felt that LSD was medicine for the soul.
+          On April 29th, 2008, Albert Hofmann passed away at the age of 102.
+        </p>
+      </div>
+    </div>
+    <!-- History -->
+    <!-- Psychedelic-Assisted Therapy -->
+    <div class="psych-therapy">
+      <div class="psych-title">
         <h1>Psychedelic-Assisted Therapy</h1>
-    </div>
-    <div class="psych-intro">
-        <p>From the 1950s through the early 1970s, psychiatrists, therapists, and researchers administered LSD to thousands of people as a treatment for alcoholism, as well as for anxiety and depression in people with advanced stage cancer. Despite its beneficial properties, LSD became illegal in the 1970’s after being pushed to the streets and used and abused recreationally. Research and experiments were brought to a halt until the 1980’s.</p>
-    </div>
-    <h1 class="title-6">What is psychedelic-assisted therapy?</h1>
-    <div class="psych-define">
-        <p>Therapeutic practices that involve ingestion of psychedelic substances. Clinical trials have shown that ingesting a psychedelic in a carefully prescribed and monitored setting can induce an experience that is medically safe and that provokes profound, durable psychological and behavioural change. Interventions using psychedelics have shown promise as a treatment for alcohol dependence, nicotine dependence, anxiety related to a terminal illness, and chronic PTSD, and research is underway to examine its efficacy in relation to obsessive-compulsive disorder, treatment-resistant depression, and social anxiety related to autism, among other potential applications.</p>
-    </div>
-    <h1 class="title-rotate-5">Substances</h1>
+      </div>
+      <div class="psych-intro">
+        <p>
+          From the 1950s through the early 1970s, psychiatrists, therapists, and
+          researchers administered LSD to thousands of people as a treatment for
+          alcoholism, as well as for anxiety and depression in people with
+          advanced stage cancer. Despite its beneficial properties, LSD became
+          illegal in the 1970’s after being pushed to the streets and used and
+          abused recreationally. Research and experiments were brought to a halt
+          until the 1980’s.
+        </p>
+      </div>
+      <h1 class="title-6">What is psychedelic-assisted therapy?</h1>
+      <div class="psych-define">
+        <p>
+          Therapeutic practices that involve ingestion of psychedelic
+          substances. Clinical trials have shown that ingesting a psychedelic in
+          a carefully prescribed and monitored setting can induce an experience
+          that is medically safe and that provokes profound, durable
+          psychological and behavioural change. Interventions using psychedelics
+          have shown promise as a treatment for alcohol dependence, nicotine
+          dependence, anxiety related to a terminal illness, and chronic PTSD,
+          and research is underway to examine its efficacy in relation to
+          obsessive-compulsive disorder, treatment-resistant depression, and
+          social anxiety related to autism, among other potential applications.
+        </p>
+      </div>
+      <h1 class="title-rotate-5">Substances</h1>
 
-        <div class="sub-1">LSD</div>
-        <div class="sub-2">Psilocybin</div>
-        <div class="sub-3">MDMA</div>
-        <div class="sub-4">Ayahuasca</div>
-</div>
-
+      <div class="sub-1">LSD</div>
+      <div class="sub-2">Psilocybin</div>
+      <div class="sub-3">MDMA</div>
+      <div class="sub-4">Ayahuasca</div>
+    </div>
+    <!-- Psychedelic-Assisted Therapy -->
+    <!-- Secret Section -->
+    <div class="secret">
+      <a href="#">Pssst</a>
+    </div>
+    <!-- Secret Section -->
     <!--Scripts  -->
+    <script src="public/js/cursor.js"></script>
+
     <script>
-        // This is the default setting
-        var rellax = new Rellax('.rellax', {
-          breakpoints: [640, 768, 1280]
-        });
-      </script>
+      // This is the default setting
+      var rellax = new Rellax(".rellax", {
+        breakpoints: [640, 768, 1280],
+      });
+    </script>
     <!-- Scripts -->
-</body>
+  </body>
 </html>
