@@ -870,7 +870,7 @@ body {
 /* Source Page */
 
 /* ===================================== MOBILE ADJUSTMENTS ========================================= */
-@media (min-width: 640px) {
+@media (min-width: 639px) {
   body {
     overflow-x: hidden;
   }
@@ -958,7 +958,7 @@ body {
     z-index: 0;
     position: initial;
     height: auto;
-    width: 200vw;
+    width: 100vw;
   }
 
   .title-rotate-2 {
@@ -1000,7 +1000,7 @@ body {
     z-index: 0;
     position: initial;
     height: auto;
-    width: 200vw;
+    width: 100vw;
   }
 
   .threshold {
@@ -1058,7 +1058,7 @@ body {
     z-index: 0;
     position: initial;
     height: auto;
-    width: 200vw;
+    width: 100vw;
     margin-top: 1rem;
   }
 
