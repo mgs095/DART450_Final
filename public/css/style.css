@@ -870,7 +870,16 @@ body {
 /* Source Page */
 
 /* ===================================== MOBILE ADJUSTMENTS ========================================= */
+@media (min-width: 640px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+
 @media (max-width: 640px) {
+  body {
+    overflow-x: hidden;
+  }
   .cursor {
     display: none;
   }
@@ -1075,7 +1084,7 @@ body {
 
   /* Psychedelic-Assisted Therapy */
   .psych-therapy {
-    height: 375vh;
+    height: 405vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
