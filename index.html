@@ -20,31 +20,11 @@
     <!-- Scripts -->
     <script src="public/js/nav.js"></script>
     <script src="public/js/rellax.js"></script>
-
-    <!-- file:///Users/markusspecogna/Desktop/School/DART450%20-%20Web%20Intervention/Resources/random/random_function.html -->
-    <!-- file:///Users/markusspecogna/Desktop/School/DART450%20-%20Web%20Intervention/Resources/random/random_function2_1.html -->
-    <!-- file:///Users/markusspecogna/Desktop/School/DART450%20-%20Web%20Intervention/Resources/dart450_day6_mousePos/mousePos3.html -->
   </head>
   <body>
     <!-- Cursor -->
     <div class="cursor"></div>
     <!-- Cursor -->
-    <!-- Nav/Menu -->
-    <div id="open-nav" class="nav-overlay">
-      <span id="nav-close" onclick="closeNav()">X</span>
-      <div id="menu" class="inner-menu">
-        <a href="#home" onclick="closeNav()">Home</a>
-        <a href="#section-1" onclick="closeNav()">History</a>
-        <a href="#section-2" onclick="closeNav()"
-          >Psychedelic-Assisted Therapy</a
-        >
-        <!-- <a href="#" id="top-secret" onclick="closeNav()">TOP-SECRET</a> -->
-        <a href="#" id="sources-text">Sources</a>
-      </div>
-    </div>
-    <span id="nav-trigger" onclick="openNav()">X</span>
-    <!-- Nav/Menu -->
-
     <!-- Hero -->
     <div class="hero">
       <h1>Happy Trip</h1>
@@ -114,13 +94,18 @@
           incredibly low doses.
         </p>
       </div>
-      <div id="pop-1" class="threshold">
-        <p><span class="footnote">*</span>What is a threshold dose?</p>
+      <div onclick="openThresh()" class="threshold">
+        <p>What is a threshold dose?</p>
       </div>
-      <div class="rellax threshold-info" data-rellax-speed="2">
+      <div
+        id="thresh-info"
+        class="rellax threshold-info"
+        data-rellax-speed="2"
+        onclick="closeThresh()"
+      >
         <p>
-          an actual threshold dose is 0.02 Milligrams, hofmann ingested .25
-          milligrams.
+          An actual threshold dose is 0.02 milligrams, Albert Hofmann ingested
+          .25 milligrams.
         </p>
       </div>
       <img
@@ -188,18 +173,55 @@
       </div>
       <h1 class="title-rotate-5">Therapies</h1>
 
-      <div class="sub-1">LSD</div>
-      <div class="sub-2">Psilocybin</div>
-      <div class="sub-3">MDMA</div>
-      <div class="sub-4">Ayahuasca</div>
+      <div onclick="openLSD()" class="sub-1">LSD</div>
+      <div id="lsd-info" onclick="closeLSD()" class="sub-1-info">
+        <p>
+          LSD is known for its ability to catalyze spiritual or mystical
+          experiences and to facilitate feelings of interconnection - focusing
+          primarily on the treatment of anxiety associated with life-threatening
+          illness, as well as for spiritual uses, creativity, and personal
+          growth.
+        </p>
+      </div>
+      <div onclick="openMush()" class="sub-2">Psilocybin</div>
+      <div id="mush-info" onclick="closeMush()" class="sub-2-info">
+        <p>
+          Psilocybin is one of the most effective psychedelics for the
+          management of conditions such as treatment-resistant depression,
+          various forms of anxiety, PTSD, and addiction. Psilocybin can catalyze
+          enormous positive and lasting changes within individuals, as well as
+          help unlock creative and spiritual potential, too.
+        </p>
+      </div>
+
+      <div onclick="openMD()" class="sub-3">MDMA</div>
+      <div id="mdma-info" onclick="closeMD()" class="sub-3-info">
+        <p>
+          MDMA-assisted psychotherapy can help heal the psychological and
+          emotional damage caused by sexual assault, war, violent crime, and
+          other traumas.
+        </p>
+      </div>
+      <div onclick="openAy()" class="sub-4">Ayahuasca</div>
+      <div id="aya-info" onclick="closeAy()" class="sub-4-info">
+        <p>
+          Ayahuasca is a psychoactive brew or tea. Researchers have been
+          exploring the effects of ayahuasca on brain function as well as the
+          potential use of ayahuasca-assisted therapy as a treatment for
+          substance abuse and other disorders. Current research suggests that
+          ayahuasca may help reduce problematic substance use by helping promote
+          personal or spiritual insights or self-knowledge.
+        </p>
+      </div>
     </div>
     <!-- Psychedelic-Assisted Therapy -->
-    <!-- Secret Section -->
-    <div class="secret">
-      <a href="#">Pssst</a>
+    <!-- Source Section -->
+    <div class="sources">
+      <a href="#">Sources</a>
     </div>
-    <!-- Secret Section -->
+    <!-- Source Section -->
     <!--Scripts  -->
+    <script src="public/js/info.js"></script>
     <script src="public/js/cursor.js"></script>
 
     <script>
