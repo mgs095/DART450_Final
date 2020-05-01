@@ -871,6 +871,9 @@ body {
 
 /* ===================================== MOBILE ADJUSTMENTS ========================================= */
 @media (max-width: 640px) {
+  .cursor {
+    display: none;
+  }
   /* Remove parallax from mobile */
   .rellax {
     transform: translate3d(0, 0, 0) !important;
@@ -1072,7 +1075,7 @@ body {
 
   /* Psychedelic-Assisted Therapy */
   .psych-therapy {
-    height: 325vh;
+    height: 375vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
