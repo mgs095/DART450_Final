@@ -1,0 +1,100 @@
+@import url("https://use.typekit.net/qoy5rjk.css");
+html, body {
+  font: 300 20px/1.2em "aktiv-grotesk", sans-serif;
+  color: #818181;
+}
+
+h1 {
+  font-size: 70px;
+  line-height: 1em;
+  margin: 0 0;
+}
+
+h2 {
+  font-size: 50px;
+  line-height: 1em;
+  margin: 0 0;
+}
+
+h3 {
+  font-size: 38px;
+  line-height: 1em;
+  margin: 0 0;
+}
+
+h4 {
+  font-size: 24px;
+  line-height: 1em;
+  margin: 0 0;
+}
+
+.wrapper {
+  max-width: 1280px;
+  width: 90%;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.inner {
+  padding: 0 20px;
+}
+
+.hero {
+  position: relative;
+  background: #FFB74C;
+  height: 100%;
+  width: 100%;
+  padding: 300px 0;
+}
+
+.hero .the-content {
+  max-width: 470px;
+  text-transform: uppercase;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  font: 70px/1em "aktiv-grotesk-extended", sans-serif;
+  margin: 0 0;
+  text-transform: uppercase;
+  text-align: left;
+  padding: 30px;
+}
+
+.title.border {
+  border: 2px solid #818181;
+  border-radius: 50%;
+}
+
+.title.mint {
+  color: #F0FDDF;
+  border-color: #F0FDDF;
+}
+
+.title.rotate {
+  transform: rotate(-90deg);
+}
+
+.history {
+  position: relative;
+  background: #4CA1FF;
+  color: #F0FDDF;
+  height: 100%;
+  width: 100%;
+  padding: 300px 0;
+}
+
+.history .section-heading {
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: left;
+}
+
+.history h3 {
+  font-weight: 300;
+}
+/*# sourceMappingURL=style.css.map */

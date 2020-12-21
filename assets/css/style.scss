@@ -1,0 +1,113 @@
+$blue: #4CA1FF;
+$yellow: #FFB74C;
+$pink: #FF58FF;
+$purple: #704CFF;
+$mint: #F0FDDF;
+$grey: #818181;
+$white: #ffffff;
+
+@import url("https://use.typekit.net/qoy5rjk.css");
+$font-body: 'aktiv-grotesk', sans-serif;
+$font-title: 'aktiv-grotesk-extended', sans-serif; 
+
+html, body{
+    font: 300 20px/1.2em $font-body;
+    color: $grey;
+}
+
+h1{
+    font-size: 70px;
+    line-height: 1em;
+    margin: 0 0;
+}
+
+h2{
+    font-size: 50px;
+    line-height: 1em;
+    margin: 0 0;
+}
+
+h3{
+    font-size: 38px;
+    line-height: 1em;
+    margin: 0 0;
+}
+
+h4{
+    font-size: 24px;
+    line-height: 1em;
+    margin: 0 0;
+}
+
+
+.wrapper{
+    max-width: 1280px;
+    width: 90%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.inner{
+    padding: 0 20px;
+}
+
+.hero{
+    position: relative;
+    background: $yellow;
+    height: 100%;
+    width: 100%;
+    padding: 300px 0;
+
+    .the-content{
+        max-width: 470px;
+        text-transform: uppercase;
+    }
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font: 70px/1em $font-title;
+    margin: 0 0;
+    text-transform: uppercase;
+    text-align: left;
+    padding: 30px;
+
+    &.border{
+        border: 2px solid $grey;
+        border-radius: 50%;
+    }
+
+    &.mint {
+        color: $mint;
+        border-color: $mint;
+    }
+
+    &.rotate{
+        transform: rotate(-90deg);
+    }
+
+}
+    
+.history{
+    position: relative;
+    background: $blue;
+    color: $mint;
+    height: 100%;
+    width: 100%;
+    padding: 300px 0;
+
+    .section-heading{
+        position: absolute;
+        top: 0;
+        left: 0;
+        text-align: left;
+    }
+
+    h3{
+        font-weight: 300;
+    }
+    
+}
