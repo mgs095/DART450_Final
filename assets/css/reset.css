@@ -6,7 +6,7 @@ body {
   scroll-behavior: smooth;
   background: #fff;
   overflow-x: hidden;
-  cursor: none;
+  /* cursor: none; */
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
