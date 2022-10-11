@@ -1,3 +1,6 @@
+@-ms-viewport {
+  width: device-width;
+}
 html {
   box-sizing: border-box;
   -ms-overflow-style: scrollbar;
@@ -22,25 +25,21 @@ html {
     max-width: 540px;
   }
 }
-
 @media (min-width: 768px) {
   .container {
     max-width: 720px;
   }
 }
-
 @media (min-width: 992px) {
   .container {
     max-width: 960px;
   }
 }
-
 @media (min-width: 1200px) {
   .container {
     max-width: 1140px;
   }
 }
-
 .container-fluid {
   width: 100%;
   padding-right: 15px;
@@ -62,7 +61,7 @@ html {
 }
 
 .no-gutters > .col,
-.no-gutters > [class*="col-"] {
+.no-gutters > [class*=col-] {
   padding-right: 0;
   padding-left: 0;
 }
@@ -397,7 +396,6 @@ html {
     margin-left: 91.666667%;
   }
 }
-
 @media (min-width: 768px) {
   .col-md {
     flex-basis: 0;
@@ -539,7 +537,6 @@ html {
     margin-left: 91.666667%;
   }
 }
-
 @media (min-width: 992px) {
   .col-lg {
     flex-basis: 0;
@@ -681,7 +678,6 @@ html {
     margin-left: 91.666667%;
   }
 }
-
 @media (min-width: 1200px) {
   .col-xl {
     flex-basis: 0;
@@ -823,7 +819,6 @@ html {
     margin-left: 91.666667%;
   }
 }
-
 .d-none {
   display: none !important;
 }
@@ -889,7 +884,6 @@ html {
     display: inline-flex !important;
   }
 }
-
 @media (min-width: 768px) {
   .d-md-none {
     display: none !important;
@@ -919,7 +913,6 @@ html {
     display: inline-flex !important;
   }
 }
-
 @media (min-width: 992px) {
   .d-lg-none {
     display: none !important;
@@ -949,7 +942,6 @@ html {
     display: inline-flex !important;
   }
 }
-
 @media (min-width: 1200px) {
   .d-xl-none {
     display: none !important;
@@ -979,7 +971,6 @@ html {
     display: inline-flex !important;
   }
 }
-
 @media print {
   .d-print-none {
     display: none !important;
@@ -1009,7 +1000,6 @@ html {
     display: inline-flex !important;
   }
 }
-
 .flex-row {
   flex-direction: row !important;
 }
@@ -1215,7 +1205,6 @@ html {
     align-self: stretch !important;
   }
 }
-
 @media (min-width: 768px) {
   .flex-md-row {
     flex-direction: row !important;
@@ -1305,7 +1294,6 @@ html {
     align-self: stretch !important;
   }
 }
-
 @media (min-width: 992px) {
   .flex-lg-row {
     flex-direction: row !important;
@@ -1395,7 +1383,6 @@ html {
     align-self: stretch !important;
   }
 }
-
 @media (min-width: 1200px) {
   .flex-xl-row {
     flex-direction: row !important;
@@ -1484,5 +1471,4 @@ html {
   .align-self-xl-stretch {
     align-self: stretch !important;
   }
-}
-/*# sourceMappingURL=bootstrap-grid.css.map */
+}/*# sourceMappingURL=bootstrap-grid.css.map */

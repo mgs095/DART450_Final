@@ -1,7 +1,8 @@
 @import url("https://use.typekit.net/qoy5rjk.css");
-html, body {
+html,
+body {
   font: 300 20px/1.2em "aktiv-grotesk", sans-serif;
-  color: #818181;
+  color: #3d3d3d;
 }
 
 h1 {
@@ -42,16 +43,15 @@ h4 {
 
 .hero {
   position: relative;
-  background: #FFB74C;
+  background: #ffd69a;
   height: 100vh;
   width: 100%;
   padding: 300px 0;
 }
-
 .hero .the-content {
   max-width: 470px;
   text-transform: uppercase;
-  color: #F0FDDF;
+  color: #93ffd8;
 }
 
 .title {
@@ -68,19 +68,12 @@ h4 {
   z-index: 2;
   text-align: center;
 }
-
 .title.border {
-  border: 2px solid #818181;
+  border: 2px solid #3d3d3d;
   border-radius: 50%;
 }
-
 .title.rotate {
   transform: rotate(-90deg);
-}
-
-.title.mint {
-  color: #F0FDDF;
-  border-color: #F0FDDF;
 }
 
 .year {
@@ -96,20 +89,19 @@ h4 {
   padding: 30px 0;
   border-bottom: 2px solid;
   font: 67px/1em "aktiv-grotesk-extended", sans-serif;
-  color: #F0FDDF;
-  background: #4CA1FF;
+  color: #93ffd8;
+  background: #548cff;
   text-transform: uppercase;
 }
 
 .history {
   position: relative;
-  background: #4CA1FF;
-  color: #F0FDDF;
+  background: #548cff;
+  color: #93ffd8;
   height: 100%;
   width: 100%;
   padding: 80px 0;
 }
-
 .history h3 {
   font-weight: 300;
 }
@@ -121,11 +113,10 @@ h4 {
   height: auto;
   width: 100%;
   padding: 15px;
-  border: 2px solid #F0FDDF;
+  border: 2px solid #93ffd8;
   z-index: 0;
   margin: 30px 0;
 }
-
 .content-img > img {
   display: block;
   height: auto;
@@ -136,15 +127,14 @@ h4 {
 .highlight {
   display: inline-block;
   position: relative;
-  color: #FFB74C;
+  color: #ffd69a;
 }
-
 .highlight:before {
-  content: '';
+  content: "";
   position: absolute;
   height: 30px;
   width: calc(100% + 5px);
-  border: 2px solid #FFB74C;
+  border: 2px solid #ffd69a;
   border-radius: 50%;
   top: -3px;
   left: -5px;
@@ -152,11 +142,10 @@ h4 {
 
 .quote {
   margin: 80px 0;
-  border-top: 2px solid #ffb74c;
-  border-bottom: 2px solid #ffb74c;
+  border-top: 2px solid #ffd69a;
+  border-bottom: 2px solid #ffd69a;
   padding: 30px 0;
   font: 30px/1.125em "aktiv-grotesk-extended", sans-serif;
   font-style: italic;
-  color: #FFB74C;
-}
-/*# sourceMappingURL=style.css.map */
+  color: #ffd69a;
+}/*# sourceMappingURL=style.css.map */
